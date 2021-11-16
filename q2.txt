@@ -1,6 +1,6 @@
 // Aura Component
 
-<aura:component implements="force:lightningQuickAction"
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader"
                 controller="ViewAccountCtrl">
  <!-- attribute declaration -->
     <aura:attribute name="listOfAccounts" type="List"/>
